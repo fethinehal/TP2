@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="E:/Session 4/Automatisation II/AlfrescoTest/Travail_pratique/Travail_pratique">
+        <classes>
+            <class name="Test.TestPageProduits">
+                <methods>
+                    <include name="Recherche_element"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
